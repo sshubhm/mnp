@@ -1,0 +1,51 @@
+1504694105795	geckodriver	INFO	geckodriver 0.18.0
+1504694105797	geckodriver	INFO	Listening on 127.0.0.1:50245
+1504694106900	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694112618	Marionette	INFO	Listening on port 36731
+1504694112810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-K92JCQ, line 78: NS_ERROR_NOT_INITIALIZED: 
+1504694127361	geckodriver	INFO	geckodriver 0.18.0
+1504694127363	geckodriver	INFO	Listening on 127.0.0.1:35167
+1504694128443	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694132023	Marionette	INFO	Listening on port 42667
+1504694132062	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504694134317	Marionette	INFO	New connections will no longer be accepted
+1504694373123	geckodriver	INFO	geckodriver 0.18.0
+1504694373125	geckodriver	INFO	Listening on 127.0.0.1:49815
+1504694374211	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694377910	Marionette	INFO	Listening on port 40311
+1504694377955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504694381173	Marionette	INFO	New connections will no longer be accepted
+1504694383231	geckodriver	INFO	geckodriver 0.18.0
+1504694383233	geckodriver	INFO	Listening on 127.0.0.1:43129
+1504694384318	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694387748	Marionette	INFO	Listening on port 33827
+1504694387876	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504694389892	Marionette	INFO	New connections will no longer be accepted
+1504694415799	geckodriver	INFO	geckodriver 0.18.0
+1504694415801	geckodriver	INFO	Listening on 127.0.0.1:53277
+1504694416883	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694420416	Marionette	INFO	Listening on port 45647
+1504694420499	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504694422719	Marionette	INFO	New connections will no longer be accepted
+1504694441378	geckodriver	INFO	geckodriver 0.18.0
+1504694441381	geckodriver	INFO	Listening on 127.0.0.1:34257
+1504694442466	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694446055	Marionette	INFO	Listening on port 46641
+1504694446093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.co.in/maps/@28.7193531,77.0686884,18z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504694449345	Marionette	INFO	New connections will no longer be accepted
+1504694480729	geckodriver	INFO	geckodriver 0.18.0
+1504694480731	geckodriver	INFO	Listening on 127.0.0.1:54723
+1504694481819	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694485217	Marionette	INFO	Listening on port 33529
+1504694485253	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.co.in/maps/@28.7190605,77.068675,16.75z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504694488835	Marionette	INFO	New connections will no longer be accepted
+1504694517020	geckodriver	INFO	geckodriver 0.18.0
+1504694517022	geckodriver	INFO	Listening on 127.0.0.1:34545
+1504694518102	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694521683	Marionette	INFO	Listening on port 41951
+1504694521827	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.co.in/maps/@28.7190605,77.068675,16.75z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504694524475	Marionette	INFO	New connections will no longer be accepted

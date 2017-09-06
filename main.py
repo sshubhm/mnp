@@ -1,7 +1,14 @@
 import numpy as np
 import cv2
+from selenium import webdriver
 
-img = cv2.imread('watch.jpg',cv2.IMREAD_GRAYSCALE)
-cv2.imshow('image', img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+from pyvirtualdisplay import Display
+
+
+display = Display(visible=0, size=(1920, 1080))
+display.start()
+
+browser = webdriver.Firefox()
+browser.get('https://www.google.co.in/maps/@28.7190605,77.068675,16.75z/data=!5m1!1e1')
+browser.save_screenshot('screenie.png')
+browser.quit()
