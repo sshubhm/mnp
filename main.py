@@ -9,6 +9,6 @@ display = Display(visible=0, size=(1920, 1080))
 display.start()
 
 browser = webdriver.Firefox()
-browser.get('https://www.google.co.in/maps/@28.7190605,77.068675,16.75z/data=!5m1!1e1')
+browser.get('https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1')
 browser.save_screenshot('screenie.png')
 browser.quit()

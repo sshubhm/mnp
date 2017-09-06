@@ -49,3 +49,12 @@ JavaScript warning: https://www.google.co.in/maps/@28.7190605,77.068675,16.75z/d
 1504694521827	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.google.co.in/maps/@28.7190605,77.068675,16.75z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
 1504694524475	Marionette	INFO	New connections will no longer be accepted
+1504694763582	geckodriver	INFO	geckodriver 0.18.0
+1504694763584	geckodriver	INFO	Listening on 127.0.0.1:48751
+1504694764665	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504694767852	Marionette	INFO	Listening on port 36089
+1504694767890	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504694771070	Marionette	INFO	New connections will no longer be accepted
