@@ -58,3 +58,267 @@ JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/
 JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
 JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
 1504694771070	Marionette	INFO	New connections will no longer be accepted
+1504717107705	geckodriver	INFO	geckodriver 0.18.0
+1504717107709	geckodriver	INFO	Listening on 127.0.0.1:60513
+1504717109035	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717115721	Marionette	INFO	Enabled via --marionette
+1504717124487	Marionette	INFO	Listening on port 42223
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717124567	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717124616	Marionette	DEBUG	loaded listener.js
+1504717124640	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717125507	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717125509	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717127598	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717129136	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717129294	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 539: TypeError: this.tablesData[table] is undefined
+[Child 12924] WARNING: pipe error (22): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12924] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504717338301	geckodriver	INFO	geckodriver 0.18.0
+1504717338310	geckodriver	INFO	Listening on 127.0.0.1:48883
+1504717339474	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717340523	Marionette	INFO	Enabled via --marionette
+1504717345499	Marionette	INFO	Listening on port 39353
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717345608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717345667	Marionette	DEBUG	loaded listener.js
+1504717345687	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717346562	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717346562	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717348073	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4091: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717350202	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717350374	Marionette	INFO	New connections will no longer be accepted
+1504717356005	geckodriver	INFO	geckodriver 0.18.0
+1504717356011	geckodriver	INFO	Listening on 127.0.0.1:57541
+1504717357186	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717358463	Marionette	INFO	Enabled via --marionette
+1504717365039	Marionette	INFO	Listening on port 44677
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717365124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717365175	Marionette	DEBUG	loaded listener.js
+1504717365200	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717365926	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717365927	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504717366839	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717367363	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717368755	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717368986	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 153: TypeError: prefs is undefined
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 14503] WARNING: pipe error (16): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14503] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504717527072	geckodriver	INFO	geckodriver 0.18.0
+1504717527076	geckodriver	INFO	Listening on 127.0.0.1:57613
+1504717528242	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717529311	Marionette	INFO	Enabled via --marionette
+1504717535036	Marionette	INFO	Listening on port 36469
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717535070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717535115	Marionette	DEBUG	loaded listener.js
+1504717535139	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717535782	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717535783	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717537177	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504717545121	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19z/data=!5m1!1e1"
+1504717545255	Marionette	INFO	New connections will no longer be accepted
+[Child 14806] WARNING: pipe error (16): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504717703690	geckodriver	INFO	geckodriver 0.18.0
+1504717703694	geckodriver	INFO	Listening on 127.0.0.1:53809
+1504717704855	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717705833	Marionette	INFO	Enabled via --marionette
+1504717713927	Marionette	INFO	Listening on port 43029
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717713985	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717714062	Marionette	DEBUG	loaded listener.js
+1504717714090	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717714905	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717714905	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717716447	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717717912	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717718064	Marionette	INFO	New connections will no longer be accepted
+1504717735408	geckodriver	INFO	geckodriver 0.18.0
+1504717735417	geckodriver	INFO	Listening on 127.0.0.1:42625
+1504717736577	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717737844	Marionette	INFO	Enabled via --marionette
+1504717741160	Marionette	INFO	Listening on port 40773
+1504717741227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717741272	Marionette	DEBUG	loaded listener.js
+1504717741292	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717742012	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717742013	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717743406	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717746012	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717746142	Marionette	INFO	New connections will no longer be accepted
+1504717780996	geckodriver	INFO	geckodriver 0.18.0
+1504717781001	geckodriver	INFO	Listening on 127.0.0.1:53013
+1504717782166	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717783413	Marionette	INFO	Enabled via --marionette
+1504717790023	Marionette	INFO	Listening on port 43201
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717790095	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717790151	Marionette	DEBUG	loaded listener.js
+1504717790190	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717791011	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717791011	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717792397	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717794051	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717794224	Marionette	INFO	New connections will no longer be accepted
+1504717845064	geckodriver	INFO	geckodriver 0.18.0
+1504717845068	geckodriver	INFO	Listening on 127.0.0.1:46523
+1504717846232	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717848661	Marionette	INFO	Enabled via --marionette
+1504717851971	Marionette	INFO	Listening on port 43185
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717852064	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717852108	Marionette	DEBUG	loaded listener.js
+1504717852133	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717852888	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717852888	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717854201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717855918	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717856113	Marionette	INFO	New connections will no longer be accepted
+
+(/usr/lib/firefox/firefox:15699): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1009.
+
+[Parent 15635] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504717877572	geckodriver	INFO	geckodriver 0.18.0
+1504717877578	geckodriver	INFO	Listening on 127.0.0.1:47395
+1504717878742	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717880161	Marionette	INFO	Enabled via --marionette
+1504717888885	Marionette	INFO	Listening on port 38111
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717888990	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717889047	Marionette	DEBUG	loaded listener.js
+1504717889073	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717889990	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717889990	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717891686	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717893686	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717893971	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504717930180	geckodriver	INFO	geckodriver 0.18.0
+1504717930184	geckodriver	INFO	Listening on 127.0.0.1:47851
+1504717931329	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717932282	Marionette	INFO	Enabled via --marionette
+1504717938298	Marionette	INFO	Listening on port 45689
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717938356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504717938408	Marionette	DEBUG	loaded listener.js
+1504717938434	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717939182	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717939183	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504717940256	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717940718	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717942024	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717942168	Marionette	INFO	New connections will no longer be accepted
+1504717957854	geckodriver	INFO	geckodriver 0.18.0
+1504717957858	geckodriver	INFO	Listening on 127.0.0.1:57103
+1504717959023	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504717961391	Marionette	INFO	Enabled via --marionette
+1504717972118	Marionette	INFO	Listening on port 34095
+1504717972657	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504717972711	Marionette	DEBUG	loaded listener.js
+1504717972743	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504717973467	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504717973467	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504717975027	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504717976579	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504717976767	Marionette	INFO	New connections will no longer be accepted
+[Child 16244] WARNING: pipe error (16): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16244] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504718060834	geckodriver	INFO	geckodriver 0.18.0
+1504718060844	geckodriver	INFO	Listening on 127.0.0.1:39933
+1504718061979	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504718063042	Marionette	INFO	Enabled via --marionette
+1504718068240	Marionette	INFO	Listening on port 35713
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504718068312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504718068373	Marionette	DEBUG	loaded listener.js
+1504718068396	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504718069352	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504718069353	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504718071006	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504718072962	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504718073088	Marionette	INFO	New connections will no longer be accepted
+1504718273422	geckodriver	INFO	geckodriver 0.18.0
+1504718273426	geckodriver	INFO	Listening on 127.0.0.1:44173
+1504718274598	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504718276180	Marionette	INFO	Enabled via --marionette
+1504718284341	Marionette	INFO	Listening on port 33347
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504718284446	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504718284500	Marionette	DEBUG	loaded listener.js
+1504718284523	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504718285371	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504718285373	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504718286324	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504718286862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504718288992	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504718289173	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4068: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 16840] WARNING: pipe error (32): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16840] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16840] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504718304395	geckodriver	INFO	geckodriver 0.18.0
+1504718304401	geckodriver	INFO	Listening on 127.0.0.1:56233
+1504718305571	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504718306654	Marionette	INFO	Enabled via --marionette
+1504718310943	Marionette	INFO	Listening on port 37553
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504718310994	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504718311043	Marionette	DEBUG	loaded listener.js
+1504718311069	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504718311994	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504718311994	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504718314376	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4079: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1504718316817	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504718316986	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: resource://shield-recipe-client/lib/EventEmitter.jsm, line 30: TypeError: log is undefined
+JavaScript error: resource://shield-recipe-client/lib/EventEmitter.jsm, line 30: TypeError: log is undefined
