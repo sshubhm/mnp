@@ -3,6 +3,7 @@ from selenium import webdriver
 from pyvirtualdisplay import Display
 import os.path
 import os
+import numpy as np
 
 def fetchimg():
     browser = webdriver.Firefox()
@@ -15,7 +16,14 @@ def showimg():
     while not os.access('screenie.png',os.W_OK):
         pass
     img = cv2.imread('screenie.png', 1)
-    cv2.imshow('image', img)
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    lower = np.array([6,100,100])
+    upper = np.array([26,255,255])
+    mask = cv2.inRange(hsv, lower, upper)
+    res = cv2.bitwise_and(img, img, mask= mask)
+    cv2.imshow('frame',img)
+    cv2.imshow('mask',mask)
+    cv2.imshow('res',res)
 
 
 fetchimg()

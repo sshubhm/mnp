@@ -1589,3 +1589,63 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1504784738960	Marionette	INFO	New connections will no longer be accepted
 JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
 JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504794447285	geckodriver	INFO	geckodriver 0.18.0
+1504794447345	geckodriver	INFO	Listening on 127.0.0.1:34191
+1504794448433	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504794451020	Marionette	INFO	Enabled via --marionette
+1504794454954	Marionette	INFO	Listening on port 45465
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504794455483	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504794455513	Marionette	DEBUG	loaded listener.js
+1504794455544	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504794456268	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504794456268	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504794457613	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504794462845	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19z/data=!5m1!1e1"
+1504794462969	Marionette	INFO	New connections will no longer be accepted
+[Child 2427] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504802754931	geckodriver	INFO	geckodriver 0.18.0
+1504802754940	geckodriver	INFO	Listening on 127.0.0.1:42481
+1504802756062	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504802758514	Marionette	INFO	Enabled via --marionette
+1504802762590	Marionette	INFO	Listening on port 35453
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504802763395	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504802763424	Marionette	DEBUG	loaded listener.js
+1504802763443	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504802764663	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504802764663	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504802766019	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504802767789	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504802767850	Marionette	INFO	New connections will no longer be accepted
+[Child 4806] WARNING: pipe error (23): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4806] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504802779876	geckodriver	INFO	geckodriver 0.18.0
+1504802779879	geckodriver	INFO	Listening on 127.0.0.1:58661
+1504802780985	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504802781745	Marionette	INFO	Enabled via --marionette
+1504802784746	Marionette	INFO	Listening on port 34571
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504802784797	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504802784827	Marionette	DEBUG	loaded listener.js
+1504802784874	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504802785889	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504802785889	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504802787155	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504802789321	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504802789422	Marionette	INFO	New connections will no longer be accepted
+[Child 4933] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4933] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4933] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
