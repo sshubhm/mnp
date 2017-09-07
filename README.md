@@ -17,6 +17,3 @@ Download geckodriver
 
 	
 
-Known Issues
-
-    1. None
