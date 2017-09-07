@@ -16,25 +16,16 @@ def fetchimg():
 
 def showimg():
     while not os.access('screenie.png',os.W_OK):
-        print "fetching image"
-        time.sleep(0.5)
-        clear()
-        print "fetching image."
-        time.sleep(0.5)
-        clear()
-        print "fetching image.."
-        time.sleep(0.5)
-        clear()
-        print "fetching image..."
-        time.sleep(0.5)
-        clear()
+        pass
     img = cv2.imread('screenie.png', 1)
     cv2.imshow('image', img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+
 
 
 
 thread.start_new_thread(fetchimg, ())
+
 while 1:
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
     pass

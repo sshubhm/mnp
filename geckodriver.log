@@ -1046,3 +1046,74 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1504782612002	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
 1504782612994	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
 1504782613099	Marionette	INFO	New connections will no longer be accepted
+1504782918439	geckodriver	INFO	geckodriver 0.18.0
+1504782918442	geckodriver	INFO	Listening on 127.0.0.1:38709
+1504782919524	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504782920195	Marionette	INFO	Enabled via --marionette
+1504782922464	Marionette	INFO	Listening on port 41103
+1504782922544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504782922579	Marionette	DEBUG	loaded listener.js
+1504782922628	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504782923367	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504782923368	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504782924478	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504782925802	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504782925907	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 4715] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4715] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4715] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504782955785	geckodriver	INFO	geckodriver 0.18.0
+1504782955787	geckodriver	INFO	Listening on 127.0.0.1:53309
+1504782956870	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504782957610	Marionette	INFO	Enabled via --marionette
+1504782960091	Marionette	INFO	Listening on port 40857
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504782960182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504782960211	Marionette	DEBUG	loaded listener.js
+1504782960237	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504782960874	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504782960874	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504782962167	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504782964665	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504782964792	Marionette	INFO	New connections will no longer be accepted
+1504782980140	geckodriver	INFO	geckodriver 0.18.0
+1504782980142	geckodriver	INFO	Listening on 127.0.0.1:57945
+1504782981236	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504782981998	Marionette	INFO	Enabled via --marionette
+1504782984880	Marionette	INFO	Listening on port 32941
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504782984948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504782984978	Marionette	DEBUG	loaded listener.js
+1504782984996	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504782985617	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504782985617	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504782986968	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504782988426	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504782988482	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.

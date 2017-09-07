@@ -28,4 +28,4 @@ Download geckodriver
 
 Known Issues
 
-    1. cv2.imshow() shows image before capturing the screenshot
+    1. None
