@@ -1,15 +1,13 @@
 # mnp
-01000111000111100001111101010
 
 download and install opencv
 	
-	For LINUX: sudo apt-get install python-opencv
+	For Ubuntu: sudo apt-get install python-opencv
 
 	For windows: http://docs.opencv.org/3.2.0/d5/de5/tutorial_py_setup_in_windows.html
 
-Download and install PyVirtualDisplay and selenium
+Download and install Selenium
 
-https://pypi.python.org/pypi/PyVirtualDisplay
 https://pypi.python.org/pypi/sel
 
 Download geckodriver
