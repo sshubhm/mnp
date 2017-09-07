@@ -4,8 +4,6 @@ from pyvirtualdisplay import Display
 import os.path
 import os
 
-clear = lambda: os.system('clear')
-
 def fetchimg():
     browser = webdriver.Firefox()
     browser.get('https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1')
