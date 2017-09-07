@@ -1,6 +1,6 @@
 # mnp
 
-download and install opencv
+Download and install opencv
 	
 	For Ubuntu: sudo apt-get install python-opencv
 
@@ -24,3 +24,7 @@ Download geckodriver
 	from selenium import webdriver
 	driver = webdriver.Firefox(executable_path=r'your\path\geckodriver.exe')
 	driver.get('http://inventwithpython.com')
+
+
+Known Issues
+    1. cv2.imshow() shows image before capturing the screenshot
