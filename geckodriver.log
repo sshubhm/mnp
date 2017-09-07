@@ -1117,3 +1117,475 @@ JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/
 JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
 JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
 JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504783496917	geckodriver	INFO	geckodriver 0.18.0
+1504783496919	geckodriver	INFO	Listening on 127.0.0.1:33189
+1504783498041	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783498846	Marionette	INFO	Enabled via --marionette
+1504783501482	Marionette	INFO	Listening on port 34947
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783501560	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783501593	Marionette	DEBUG	loaded listener.js
+1504783501639	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783502256	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783502257	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783503291	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783504735	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783504795	Marionette	INFO	New connections will no longer be accepted
+1504783537825	geckodriver	INFO	geckodriver 0.18.0
+1504783537828	geckodriver	INFO	Listening on 127.0.0.1:60127
+1504783538979	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783539636	Marionette	INFO	Enabled via --marionette
+1504783542258	Marionette	INFO	Listening on port 44327
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783542331	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783542363	Marionette	DEBUG	loaded listener.js
+1504783542413	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783543092	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783543092	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783544428	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504783545904	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783545968	Marionette	INFO	New connections will no longer be accepted
+[Child 6172] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6172] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504783579139	geckodriver	INFO	geckodriver 0.18.0
+1504783579141	geckodriver	INFO	Listening on 127.0.0.1:35559
+1504783580224	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783580876	Marionette	INFO	Enabled via --marionette
+1504783583571	Marionette	INFO	Listening on port 46327
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783583641	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783583672	Marionette	DEBUG	loaded listener.js
+1504783583689	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783584470	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783584470	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783585881	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783588151	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783588232	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 6539] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6539] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0016,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+1504783633923	geckodriver	INFO	geckodriver 0.18.0
+1504783633925	geckodriver	INFO	Listening on 127.0.0.1:42943
+1504783635007	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783635691	Marionette	INFO	Enabled via --marionette
+1504783638237	Marionette	INFO	Listening on port 37467
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783638320	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783638349	Marionette	DEBUG	loaded listener.js
+1504783638374	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783638967	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783638967	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783640252	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783641570	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504783641629	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 219: TypeError: log is undefined
+[Child 6696] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6696] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504783682609	geckodriver	INFO	geckodriver 0.18.0
+1504783682611	geckodriver	INFO	Listening on 127.0.0.1:38463
+1504783683695	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783684467	Marionette	INFO	Enabled via --marionette
+1504783686882	Marionette	INFO	Listening on port 43625
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783686931	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783686961	Marionette	DEBUG	loaded listener.js
+1504783687037	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783687752	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783687752	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783688827	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783689714	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783689815	Marionette	INFO	New connections will no longer be accepted
+1504783703298	geckodriver	INFO	geckodriver 0.18.0
+1504783703300	geckodriver	INFO	Listening on 127.0.0.1:48343
+1504783704444	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783705200	Marionette	INFO	Enabled via --marionette
+1504783707533	Marionette	INFO	Listening on port 33999
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783707618	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783707648	Marionette	DEBUG	loaded listener.js
+1504783707724	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783708509	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783708510	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783709620	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504783711257	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783711315	Marionette	INFO	New connections will no longer be accepted
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4,name=PAPZCTreeManager::Msg_UpdateZoomConstraints) Channel error: cannot send/recv
+
+[Child 6997] WARNING: pipe error: Broken pipe: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1504783734598	geckodriver	INFO	geckodriver 0.18.0
+1504783734600	geckodriver	INFO	Listening on 127.0.0.1:50489
+1504783735707	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783736468	Marionette	INFO	Enabled via --marionette
+1504783738867	Marionette	INFO	Listening on port 34009
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783738942	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783738975	Marionette	DEBUG	loaded listener.js
+1504783739000	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783739583	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783739583	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783740855	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783742180	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783742283	Marionette	INFO	New connections will no longer be accepted
+1504783747547	geckodriver	INFO	geckodriver 0.18.0
+1504783747549	geckodriver	INFO	Listening on 127.0.0.1:40857
+1504783748660	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783749401	Marionette	INFO	Enabled via --marionette
+1504783751981	Marionette	INFO	Listening on port 44807
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783752072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783752101	Marionette	DEBUG	loaded listener.js
+1504783752117	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783752817	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783752817	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783754091	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783755555	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783755612	Marionette	INFO	New connections will no longer be accepted
+[Child 7275] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7275] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504783796695	geckodriver	INFO	geckodriver 0.18.0
+1504783796697	geckodriver	INFO	Listening on 127.0.0.1:43731
+1504783797846	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783798557	Marionette	INFO	Enabled via --marionette
+1504783800689	Marionette	INFO	Listening on port 33385
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783800758	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783800788	Marionette	DEBUG	loaded listener.js
+1504783800864	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783801594	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783801595	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783803169	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783804436	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783804497	Marionette	INFO	New connections will no longer be accepted
+1504783818958	geckodriver	INFO	geckodriver 0.18.0
+1504783818961	geckodriver	INFO	Listening on 127.0.0.1:38983
+1504783820133	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783820783	Marionette	INFO	Enabled via --marionette
+1504783822845	Marionette	INFO	Listening on port 42523
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783822981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504783823013	Marionette	DEBUG	loaded listener.js
+1504783823062	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783823750	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783823750	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783824848	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783825701	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783825847	Marionette	INFO	New connections will no longer be accepted
+[Child 7547] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7547] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7547] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504783863669	geckodriver	INFO	geckodriver 0.18.0
+1504783863671	geckodriver	INFO	Listening on 127.0.0.1:56955
+1504783864789	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504783865422	Marionette	INFO	Enabled via --marionette
+1504783867693	Marionette	INFO	Listening on port 35665
+1504783867703	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504783867732	Marionette	DEBUG	loaded listener.js
+1504783867749	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504783868465	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504783868465	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504783869758	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783870959	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504783871059	Marionette	INFO	New connections will no longer be accepted
+[Child 7678] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7678] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7678] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784053309	geckodriver	INFO	geckodriver 0.18.0
+1504784053312	geckodriver	INFO	Listening on 127.0.0.1:44099
+1504784054429	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784055106	Marionette	INFO	Enabled via --marionette
+1504784057131	Marionette	INFO	Listening on port 38471
+1504784057145	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784057175	Marionette	DEBUG	loaded listener.js
+1504784057250	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784057872	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784057872	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784058927	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784059989	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784060091	Marionette	INFO	New connections will no longer be accepted
+[Child 8065] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8065] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8065] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784067301	geckodriver	INFO	geckodriver 0.18.0
+1504784067303	geckodriver	INFO	Listening on 127.0.0.1:54543
+1504784068395	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784069035	Marionette	INFO	Enabled via --marionette
+1504784071158	Marionette	INFO	Listening on port 33233
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784071212	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784071242	Marionette	DEBUG	loaded listener.js
+1504784071309	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784072300	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784072300	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784073533	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784074720	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784074877	Marionette	INFO	New connections will no longer be accepted
+[Child 8200] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8200] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784233922	geckodriver	INFO	geckodriver 0.18.0
+1504784233924	geckodriver	INFO	Listening on 127.0.0.1:36955
+1504784235011	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784235641	Marionette	INFO	Enabled via --marionette
+1504784238225	Marionette	INFO	Listening on port 36453
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784238326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784238355	Marionette	DEBUG	loaded listener.js
+1504784238376	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784238966	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784238966	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784240071	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784241815	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784241915	Marionette	INFO	New connections will no longer be accepted
+1504784273215	geckodriver	INFO	geckodriver 0.18.0
+1504784273218	geckodriver	INFO	Listening on 127.0.0.1:57957
+1504784274297	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784275044	Marionette	INFO	Enabled via --marionette
+1504784277286	Marionette	INFO	Listening on port 40477
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784277340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784277370	Marionette	DEBUG	loaded listener.js
+1504784277440	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784278048	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784278048	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784279025	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784280254	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784280313	Marionette	INFO	New connections will no longer be accepted
+1504784287301	geckodriver	INFO	geckodriver 0.18.0
+1504784287303	geckodriver	INFO	Listening on 127.0.0.1:38793
+1504784288438	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784289122	Marionette	INFO	Enabled via --marionette
+1504784291385	Marionette	INFO	Listening on port 36339
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784291460	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784291493	Marionette	DEBUG	loaded listener.js
+1504784291536	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784292176	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784292176	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784293157	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784294207	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784294355	Marionette	INFO	New connections will no longer be accepted
+[Child 8755] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8755] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784347235	geckodriver	INFO	geckodriver 0.18.0
+1504784347237	geckodriver	INFO	Listening on 127.0.0.1:44547
+1504784348324	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784348995	Marionette	INFO	Enabled via --marionette
+1504784351287	Marionette	INFO	Listening on port 46085
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784351411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784351441	Marionette	DEBUG	loaded listener.js
+1504784351511	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784352208	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784352209	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784353750	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504784355363	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784355486	Marionette	INFO	New connections will no longer be accepted
+[Child 8922] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8922] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784364537	geckodriver	INFO	geckodriver 0.18.0
+1504784364539	geckodriver	INFO	Listening on 127.0.0.1:40545
+1504784365619	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784366370	Marionette	INFO	Enabled via --marionette
+1504784368709	Marionette	INFO	Listening on port 43729
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784368835	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784368867	Marionette	DEBUG	loaded listener.js
+1504784368894	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784369523	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784369523	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784370871	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784372014	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784372123	Marionette	INFO	New connections will no longer be accepted
+1504784396443	geckodriver	INFO	geckodriver 0.18.0
+1504784396446	geckodriver	INFO	Listening on 127.0.0.1:55535
+1504784397527	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784398253	Marionette	INFO	Enabled via --marionette
+1504784400827	Marionette	INFO	Listening on port 35639
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784400904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784400938	Marionette	DEBUG	loaded listener.js
+1504784400985	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784401900	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784401900	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784403254	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784404269	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784404369	Marionette	INFO	New connections will no longer be accepted
+[Child 9210] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9210] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784448597	geckodriver	INFO	geckodriver 0.18.0
+1504784448600	geckodriver	INFO	Listening on 127.0.0.1:51447
+1504784449704	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784450419	Marionette	INFO	Enabled via --marionette
+1504784452789	Marionette	INFO	Listening on port 42361
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784452883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784452931	Marionette	DEBUG	loaded listener.js
+1504784453116	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1504784475612	geckodriver	INFO	geckodriver 0.18.0
+1504784475615	geckodriver	INFO	Listening on 127.0.0.1:36445
+1504784476697	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784477436	Marionette	INFO	Enabled via --marionette
+1504784479731	Marionette	INFO	Listening on port 35139
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784479809	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784479842	Marionette	DEBUG	loaded listener.js
+1504784479867	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784480447	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784480447	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784481492	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504784483226	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784483296	Marionette	INFO	New connections will no longer be accepted
+1504784500117	geckodriver	INFO	geckodriver 0.18.0
+1504784500119	geckodriver	INFO	Listening on 127.0.0.1:55407
+1504784501201	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784501993	Marionette	INFO	Enabled via --marionette
+1504784504218	Marionette	INFO	Listening on port 40279
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784504365	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784504397	Marionette	DEBUG	loaded listener.js
+1504784504437	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784505038	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784505038	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784506106	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784507782	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784507839	Marionette	INFO	New connections will no longer be accepted
+1504784532279	geckodriver	INFO	geckodriver 0.18.0
+1504784532281	geckodriver	INFO	Listening on 127.0.0.1:38841
+1504784533361	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784534021	Marionette	INFO	Enabled via --marionette
+1504784536437	Marionette	INFO	Listening on port 43387
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784536516	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784536551	Marionette	DEBUG	loaded listener.js
+1504784536601	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784537333	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784537334	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784538726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784540135	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784540234	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 9788] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9788] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784569870	geckodriver	INFO	geckodriver 0.18.0
+1504784569872	geckodriver	INFO	Listening on 127.0.0.1:57949
+1504784570995	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784571639	Marionette	INFO	Enabled via --marionette
+1504784573961	Marionette	INFO	Listening on port 46171
+1504784574037	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784574071	Marionette	DEBUG	loaded listener.js
+1504784574108	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784574757	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784574757	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784576128	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4335: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+1504784581345	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19z/data=!5m1!1e1"
+1504784581421	Marionette	INFO	New connections will no longer be accepted
+[Child 9924] WARNING: pipe error: Broken pipe: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 9924] WARNING: pipe error: Broken pipe: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 9924] WARNING: pipe error: Broken pipe: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 9924] WARNING: pipe error: Broken pipe: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 9924] WARNING: pipe error: Broken pipe: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1504784686167	geckodriver	INFO	geckodriver 0.18.0
+1504784686169	geckodriver	INFO	Listening on 127.0.0.1:39253
+1504784687255	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784688049	Marionette	INFO	Enabled via --marionette
+1504784690717	Marionette	INFO	Listening on port 46523
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784690789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784690818	Marionette	DEBUG	loaded listener.js
+1504784690895	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784691431	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784691431	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784692442	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784694048	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784694113	Marionette	INFO	New connections will no longer be accepted
+[Child 10133] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10133] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784701271	geckodriver	INFO	geckodriver 0.18.0
+1504784701273	geckodriver	INFO	Listening on 127.0.0.1:55001
+1504784702354	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784703099	Marionette	INFO	Enabled via --marionette
+1504784705589	Marionette	INFO	Listening on port 38177
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784705682	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784705725	Marionette	DEBUG	loaded listener.js
+1504784705813	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784706406	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784706406	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784707413	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784708641	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784708772	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 10262] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10262] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504784731612	geckodriver	INFO	geckodriver 0.18.0
+1504784731615	geckodriver	INFO	Listening on 127.0.0.1:59719
+1504784732697	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504784733425	Marionette	INFO	Enabled via --marionette
+1504784736006	Marionette	INFO	Listening on port 34585
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504784736146	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504784736179	Marionette	DEBUG	loaded listener.js
+1504784736217	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504784736794	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504784736794	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504784737758	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784738860	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1504784738960	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4080: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
