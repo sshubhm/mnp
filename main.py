@@ -11,7 +11,6 @@ def fetchimg():
     browser.get('https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1')
     browser.save_screenshot('screenie.png')
     browser.quit()
-    print "quit"
 
 
 def showimg():
