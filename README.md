@@ -1,12 +1,19 @@
 # mnp
 
 Download and install opencv
+
+Debian/Ubuntu -	
 	
 	sudo apt-get install python-opencv
 
-Download and install Selenium
+Red Hat/Fedora/OpenSUSE-
+	
+	dnf install numpy opencv*
 
-https://pypi.python.org/pypi/sel
+
+Install Selenium Webdriver
+
+	pip install selenium
 
 Download geckodriver
 
