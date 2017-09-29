@@ -2,7 +2,7 @@
 
 import Tkinter
 top = Tkinter.Tk()
-# Code to add widgets will go here...
+#currently run it as a seperate file  using "python CrossingGUI.py"
 
 C = Tkinter.Canvas(top, bg="#b0b0b0", height=600, width=600)
 

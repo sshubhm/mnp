@@ -17,13 +17,25 @@ class crossing:
 
     def fetch(self):
         img = cv2.imread(self.name+".png")
-        hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+	
+	#to rotate the image by 40 degrees counterclockwise
+	rows,cols,channels = img.shape
+	M = cv2.getRotationMatrix2D((cols/2,rows/2),40,1)
+	dst = cv2.warpAffine(img,M,(cols,rows))
+	
+	#to print the color value in given pixel region
+	road1 = img[350:650, 620:630]	
+	print road1
+
+        hsv = cv2.cvtColor(dst, cv2.COLOR_BGR2HSV)
         lower = np.array([6, 100, 100])
         upper = np.array([26, 255, 255])
         mask = cv2.inRange(hsv, lower, upper)
-        res = cv2.bitwise_and(img, img, mask=mask)
-        cv2.imshow('frame', img)
-        cv2.imshow('mask', mask)
+        res = cv2.bitwise_and(dst, dst, mask=mask)
+
+        #cv2.imshow('frame', img)
+	cv2.imshow('rotated', dst)
+        #cv2.imshow('mask', mask)
         cv2.imshow('res', res)
 
     def getName(self):
