@@ -14,7 +14,7 @@ def color(a):
         return "orange"
     elif np.array_equal(a, [0, 0, 230]):
         return "red"
-    elif np.array_equal(a, [17, 17, 141]):
+    elif np.array_equal(a, [19, 19, 158]):
         return "maroon"
     else:
         return a
