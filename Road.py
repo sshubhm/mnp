@@ -1,7 +1,6 @@
 #class road
 
 class Road:
-
     def getColor(self):
         print self.color
 
