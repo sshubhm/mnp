@@ -8,12 +8,14 @@ import numpy as np
 from Road import *
 
 def color(a):
-    if np.array_equal(a, [ 80, 202, 132]):
+    if np.array_equal(a, [80, 202, 132]):
         return "green"
-    elif np.array_equal(a, [  2, 125, 240]):
+    elif np.array_equal(a, [2, 125, 240]):
         return "orange"
-    elif np.array_equal(a, [ 0, 0, 230]):
+    elif np.array_equal(a, [0, 0, 230]):
         return "red"
+    elif np.array_equal(a, [17, 17, 141]):
+        return "maroon"
     else:
         return a
 
