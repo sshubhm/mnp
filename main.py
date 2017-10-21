@@ -7,7 +7,7 @@ from crossing import *
 
 
 cr1 = crossing("Maharaja",'https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1')
-cr1.getUpdate()
+#cr1.getUpdate()
 cr1.fetch()
 
 

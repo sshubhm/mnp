@@ -1,5 +1,4 @@
 #Crossing Class
-
 import cv2, thread, time
 from selenium import webdriver
 import os.path
@@ -23,26 +22,19 @@ class crossing:
     #fetch method to fetch the image
     def fetch(self):
         img = cv2.imread(self.name+".png")
-	
+        print "0 = " + str(img[268,654])
+        print "1 = " + str(img[346,767])
+        print "2 = " + str(img[393,740])
+        print "3 = " + str(img[321,628])
 	#to rotate the image by 40 degrees counterclockwise
-	rows,cols,channels = img.shape
-	M = cv2.getRotationMatrix2D((cols/2,rows/2),40,1)
-	dst = cv2.warpAffine(img,M,(cols,rows))
+	#rows,cols,channels = img.shape
+	#M = cv2.getRotationMatrix2D((cols/2,rows/2),40,1)
+	#dst = cv2.warpAffine(img,M,(cols,rows))
 	
 	#to print the color value in given pixel region
-	road1 = img[350:650, 620:630]	
-	print road1
+	#road1 = img[350:650, 620:630]	
+	#print road1
 
-        hsv = cv2.cvtColor(dst, cv2.COLOR_BGR2HSV)
-        lower = np.array([6, 100, 100])
-        upper = np.array([26, 255, 255])
-        mask = cv2.inRange(hsv, lower, upper)
-        res = cv2.bitwise_and(dst, dst, mask=mask)
-
-        #cv2.imshow('frame', img)
-	cv2.imshow('rotated', dst)
-        #cv2.imshow('mask', mask)
-        cv2.imshow('res', res)
-
+        
     def getName(self):
         print self.name
