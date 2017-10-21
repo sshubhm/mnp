@@ -2233,3 +2233,74 @@ JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/
 JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4060: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
 [Child 5203] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 5203] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508585085160	geckodriver	INFO	Listening on 127.0.0.1:56263
+1508585086261	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1508585086493	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508585088198	Marionette	INFO	Enabled via --marionette
+1508585093644	Marionette	INFO	Listening on port 44561
+1508585093693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508585093747	Marionette	DEBUG	Register listener.js for window 2147483649
+1508585093785	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508585094595	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508585094597	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1508585097556	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1508585098561	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1508585098901	Marionette	INFO	New connections will no longer be accepted
+[Child 5435] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5435] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508585235495	geckodriver	INFO	Listening on 127.0.0.1:56087
+1508585236600	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1508585236839	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508585237680	Marionette	INFO	Enabled via --marionette
+1508585240859	Marionette	INFO	Listening on port 33673
+1508585240933	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508585240987	Marionette	DEBUG	Register listener.js for window 2147483649
+1508585241015	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508585241874	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508585241875	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1508585243762	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1508585244765	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1508585244964	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4060: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4060: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 5643] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5643] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508585261861	geckodriver	INFO	Listening on 127.0.0.1:52699
+1508585262959	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1508585263376	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508585264863	Marionette	INFO	Enabled via --marionette
+1508585268319	Marionette	INFO	Listening on port 38577
+1508585268417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508585268466	Marionette	DEBUG	Register listener.js for window 2147483649
+1508585268494	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508585269319	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508585269320	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1508585272654	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1508585273707	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1508585273943	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4060: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4060: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 5822] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5822] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5822] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508585278390	geckodriver	INFO	Listening on 127.0.0.1:33669
+1508585279496	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1508585279727	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508585281021	Marionette	INFO	Enabled via --marionette
+1508585284544	Marionette	INFO	Listening on port 34245
+1508585284628	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508585284678	Marionette	DEBUG	Register listener.js for window 2147483649
+1508585284711	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508585285385	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508585285386	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1508585287600	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1508585288627	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1"
+1508585288864	Marionette	INFO	New connections will no longer be accepted
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4060: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1, line 4060: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+[Child 5967] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5967] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-8QqMt9/firefox-56.0+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
