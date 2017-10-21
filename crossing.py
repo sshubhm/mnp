@@ -24,6 +24,7 @@ class crossing:
     #getUpdate to get the latest image from Google Maps
     def getUpdate(self):
         browser = webdriver.Firefox()
+        browser.maximize_window()
         browser.set_window_size(1366, 768)
         browser.get(self.url)
         browser.save_screenshot(self.name+".png")
