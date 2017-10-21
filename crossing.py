@@ -7,6 +7,15 @@ import numpy as np
 
 from Road import *
 
+def color(a):
+    if np.array_equal(a, [ 80, 202, 132]):
+        return "green"
+    elif np.array_equal(a, [  2, 125, 240]):
+        return "orange"
+    elif np.array_equal(a, [ 0, 0, 230]):
+        return "red"
+    else:
+        return a
 
 class crossing:
 
@@ -29,21 +38,15 @@ class crossing:
         rTop = Road()
         rRight = Road()
         rBottom = Road()
+        rLeft.setColor(color(img[259,641]))
+        rTop.setColor(color(img[346,767]))
+        rRight.setColor(color(img[393,740]))
+        rBottom.setColor(color(img[321,628]))
+        rLeft.getColor()
+        rTop.getColor()
+        rRight.getColor()
+        rBottom.getColor()
 
-        rLeft.setColor(str(img[268,654]))
-        rTop.setColor(str(img[346,767]))
-        rRight.setColor(str(img[393,740]))
-        rBottom.setColor(str(img[321,628]))
 
-	#to rotate the image by 40 degrees counterclockwise
-	#rows,cols,channels = img.shape
-	#M = cv2.getRotationMatrix2D((cols/2,rows/2),40,1)
-	#dst = cv2.warpAffine(img,M,(cols,rows))
-	
-	#to print the color value in given pixel region
-	#road1 = img[350:650, 620:630]	
-	#print road1
-
-        
     def getName(self):
         print self.name
