@@ -1,8 +1,6 @@
 #Crossing Class
-import cv2, thread, time
+import cv2
 from selenium import webdriver
-import os.path
-import os
 import numpy as np
 
 from Road import *

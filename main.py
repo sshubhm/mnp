@@ -1,8 +1,3 @@
-import cv2, thread, time	
-from selenium import webdriver
-import os.path
-import os
-import numpy as np
 from crossing import *
 
 
