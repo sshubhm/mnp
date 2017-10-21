@@ -5,6 +5,9 @@ import os.path
 import os
 import numpy as np
 
+from Road import *
+
+
 class crossing:
 
     #init method to set name and url of crossing
@@ -22,10 +25,16 @@ class crossing:
     #fetch method to fetch the image
     def fetch(self):
         img = cv2.imread(self.name+".png")
-        print "0 = " + str(img[268,654])
-        print "1 = " + str(img[346,767])
-        print "2 = " + str(img[393,740])
-        print "3 = " + str(img[321,628])
+        rLeft = Road()
+        rTop = Road()
+        rRight = Road()
+        rBottom = Road()
+
+        rLeft.setColor(str(img[268,654]))
+        rTop.setColor(str(img[346,767]))
+        rRight.setColor(str(img[393,740]))
+        rBottom.setColor(str(img[321,628]))
+
 	#to rotate the image by 40 degrees counterclockwise
 	#rows,cols,channels = img.shape
 	#M = cv2.getRotationMatrix2D((cols/2,rows/2),40,1)
