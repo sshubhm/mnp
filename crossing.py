@@ -1,3 +1,5 @@
+#Crossing Class
+
 import cv2, thread, time
 from selenium import webdriver
 import os.path
@@ -5,16 +7,20 @@ import os
 import numpy as np
 
 class crossing:
+
+    #init method to set name and url of crossing
     def __init__(self,name, url):
         self.name = name
         self.url = url
 
+    #getUpdate to get the latest image from Google Maps
     def getUpdate(self):
         browser = webdriver.Firefox()
         browser.get(self.url)
         browser.save_screenshot(self.name+".png")
         browser.quit()
 
+    #fetch method to fetch the image
     def fetch(self):
         img = cv2.imread(self.name+".png")
 	
