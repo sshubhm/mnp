@@ -1,9 +1,8 @@
 #!/usr/bin/python
-from Road import *
 
 import Tkinter
 
-from main import rLeft, rTop, rRight, rBottom
+from main import rLeft, tLeft, rRight, rTop, rBottom, tRight, tBottom, tTop
 
 top = Tkinter.Tk()
 #currently run it as a seperate file  using "python CrossingGUI.py"
@@ -36,3 +35,11 @@ oval = C.create_oval(290,310,310,330, fill="green")
 
 C.pack()
 top.mainloop()
+
+# algo willl be written in this funcition
+def updateTrafficLight():
+    if(rLeft.getColor() == "green" & rRight.getColor()=="green" & rTop.getColor()=="green" & rBottom.getColor()=="green"):
+        tLeft.setTime(10)
+        tRight.setTime(10)
+        tBottom.setTime(10)
+        tTop.setTime(10)
