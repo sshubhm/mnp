@@ -1,19 +1,11 @@
 from crossing import *
 from TrafficLight import *
+from CrossingGUI import *
 
 cr1 = crossing("Maharaja",'https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1')
 cr1.getUpdate()
 img = cr1.fetch()
 
-global rLeft
-global rTop
-global rBottom
-global rRight
-
-global tLeft
-global tTop
-global tBottom
-global tRight
 
 
 #my coordinates comment them if you want to use yours, don't delete
@@ -36,6 +28,7 @@ tTop = TrafficLight()
 tRight = TrafficLight()
 tBottom = TrafficLight()
 
+board = Draw(rLeft,rRight,rTop,rBottom)
 #updateTrafficLight()
 
 cv2.waitKey(0)
