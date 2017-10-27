@@ -8,15 +8,17 @@ img = cr1.fetch()
 
 
 
-#my coordinates comment them if you want to use yours, don't delete
 rLeft = Road()
 rTop = Road()
 rRight = Road()
 rBottom = Road()
-rLeft.setColor(color(img[259,641]))
-rTop.setColor(color(img[346,767]))
-rRight.setColor(color(img[393,740]))
-rBottom.setColor(color(img[321,628]))
+
+
+#my coordinates comment them if you want to use yours, don't delete
+rLeft.setColor(color(img[256,634]))
+rTop.setColor(color(img[338,774]))
+rRight.setColor(color(img[408,759]))
+rBottom.setColor(color(img[334,617]))
 
 # rLeft.setColor("green")
 # rTop.setColor("red")
