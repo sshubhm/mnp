@@ -42,6 +42,7 @@ class Draw:
         tTop = TrafficLight(290,270,310,290, C)
         tRight = TrafficLight(310, 290, 330, 310, C)
         tBottom = TrafficLight(290, 310, 310, 330, C)
+        top.after(1000,tLeft.toggle,C)
 
         C.pack()
         top.mainloop()
