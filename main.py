@@ -25,13 +25,11 @@ rBottom.setColor(color(img[334,617]))
 # rRight.setColor("maroon")
 # rBottom.setColor("orange")
 
-tLeft = TrafficLight()
-tTop = TrafficLight()
-tRight = TrafficLight()
-tBottom = TrafficLight()
 
+
+#creating the board
 board = Draw(rLeft,rRight,rTop,rBottom)
-#updateTrafficLight()
+
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()

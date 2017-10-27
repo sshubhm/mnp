@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import Tkinter
+from TrafficLight import *
 
 #from main import rLeft, tLeft, rRight, rTop, rBottom, tRight, tBottom, tTop
 
@@ -24,16 +25,23 @@ class Draw:
         line = C.create_line(350,300,550,300, dash=(2,4))
         line = C.create_line(300,350,300,550, dash=(2,4))
 
+        #left
         rectangle = C.create_rectangle(50,270,250,280, width=0, fill=rLeft.getColor())
-        rectangle = C.create_rectangle(350,320,550,330, width=0, fill=rTop.getColor())
-        rectangle = C.create_rectangle(320,50,330,250, width=0, fill=rRight.getColor())
+        #top
+        rectangle = C.create_rectangle(320,50,330,250, width=0, fill=rTop.getColor())
+        #right
+        rectangle = C.create_rectangle(350,320,550,330, width=0, fill=rRight.getColor())
+        #bottom
         rectangle = C.create_rectangle(270,350,280,550, width=0, fill=rBottom.getColor())
 
-        ovalL = C.create_oval(270,290,290,310, fill="red")
-        ovalT = C.create_oval(290,270,310,290, fill="orange")
-        ovalR = C.create_oval(310,290,330,310, fill="red")
-        ovalB = C.create_oval(290,310,310,330, fill="green")
-
+        # ovalL = C.create_oval(270,290,290,310, fill="red")
+        # ovalT = C.create_oval(290,270,310,290, fill="orange")
+        # ovalR = C.create_oval(310,290,330,310, fill="red")
+        # ovalB = C.create_oval(290,310,310,330, fill="green")
+        tLeft = TrafficLight(270,290,290,310, C)
+        tTop = TrafficLight(290,270,310,290, C)
+        tRight = TrafficLight(310, 290, 330, 310, C)
+        tBottom = TrafficLight(290, 310, 310, 330, C)
 
         C.pack()
         top.mainloop()
