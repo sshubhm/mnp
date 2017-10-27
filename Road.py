@@ -1,6 +1,6 @@
 #class road
 import numpy as np
-
+from TrafficLight import *
 
 def color(a):
     if np.array_equal(a, [80, 202, 132]):
@@ -15,9 +15,10 @@ def color(a):
         return a
 
 class Road:
+    def createLight(self,a,b,c,d,C):
+        self.tLight = TrafficLight(a,b,c,d,C)
     def getColor(self):
         return self.color
-
     def setColor(self, color):
         self.color = color
 

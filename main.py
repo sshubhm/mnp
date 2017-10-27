@@ -1,3 +1,5 @@
+import time
+
 from crossing import *
 from TrafficLight import *
 from CrossingGUI import *
@@ -29,7 +31,27 @@ rBottom.setColor(color(img[334,617]))
 
 #creating the board
 board = Draw(rLeft,rRight,rTop,rBottom)
+rLeft.createLight(270,290,290,310,board.C)
+rTop.createLight(290,270,310,290,board.C)
+rRight.createLight(310, 290, 330, 310,board.C)
+rBottom.createLight(290, 310, 310, 330,board.C)
+roads = [rLeft, rTop, rRight, rBottom]
+
+for road in roads:
+    rColor = road.getColor()
+    if rColor == 'maroon':
+        road.tLight.setTime(30)
+    elif rColor == 'red':
+        road.tLight.setTime(25)
+    elif rColor == 'orange':
+        road.tLight.setTime(20)
+    elif rColor == 'green':
+        road.tLight.setTime(15)
+    print(rColor)
+board.top.after(rLeft.tLight.getTime()*1000,board.glow,rLeft.tLight,roads)
+board.top.after(1000*(rTop.tLight.getTime()+rLeft.tLight.getTime()),board.glow,rTop.tLight,roads)
+board.top.after(1000*(rTop.tLight.getTime()+rLeft.tLight.getTime()+rRight.tLight.getTime()),board.glow,rRight.tLight,roads)
+board.top.after(1000*(rLeft.tLight.getTime()+rTop.tLight.getTime()+rRight.tLight.getTime()+rBottom.tLight.getTime()),board.glow,rBottom.tLight,roads)
 
 
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+board.top.mainloop()
