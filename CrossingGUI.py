@@ -9,8 +9,6 @@ from TrafficLight import *
 #from main import rLeft, tLeft, rRight, rTop, rBottom, tRight, tBottom, tTop
 
 class Draw:
-    top = Tkinter.Tk()
-    C = Tkinter.Canvas(top, bg="#b0b0b0", height=600, width=600)
 
     def __init__(self,rLeft,rRight,rTop,rBottom):
         self.top = Tkinter.Tk()

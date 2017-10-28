@@ -5,10 +5,10 @@ from TrafficLight import *
 from CrossingGUI import *
 
 cr1 = crossing("Maharaja",'https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1')
+cr1.openFirefox()
+cr1.getUpdate()
 
 while 1:
-    cr1.openFirefox()
-    cr1.getUpdate()
     img = cr1.fetch()
 
     rLeft = Road()
@@ -58,16 +58,22 @@ while 1:
     # board.top.after(1000*(rLeft.tLight.getTime()+rTop.tLight.getTime()+rRight.tLight.getTime()+rBottom.tLight.getTime()),board.glow,rBottom.tLight,roads)
 
 
-    initialDelay = 0
+    itr = 0
     for road in roads:
+        itr = itr + 1
         if road == rLeft:
             board.glow(road.tLight,roads)
             oldTime = road.tLight.getTime()
             continue
         print(oldTime)
+        if(itr == 4):
+            board.top.after((oldTime) * 1000, cr1.getUpdate)
         board.top.after((oldTime)*1000, board.glow,road.tLight,roads)
+
         oldTime = oldTime + road.tLight.getTime()
+
     board.top.after(oldTime*1000, board.glow,roads[0].tLight,roads)
+
     board.top.after(oldTime*1000, board.quit)
 
     board.top.mainloop()
