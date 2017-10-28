@@ -13,7 +13,9 @@ class Draw:
     C = Tkinter.Canvas(top, bg="#b0b0b0", height=600, width=600)
 
     def __init__(self,rLeft,rRight,rTop,rBottom):
-        
+        self.top = Tkinter.Tk()
+        self.C = Tkinter.Canvas(self.top, bg="#b0b0b0", height=600, width=600)
+
         line = self.C.create_line(250,50,250,250)
         line = self.C.create_line(50,250,250,250)
         line = self.C.create_line(50,350,250,350)
@@ -54,3 +56,7 @@ class Draw:
         for road in roads:
             self.C.itemconfig(road.tLight.oval, fill="red")
         self.C.itemconfig(tLight.oval, fill='green')
+
+    def quit(self):
+        print('closing')
+        self.top.destroy()
