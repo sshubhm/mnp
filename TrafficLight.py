@@ -1,34 +1,36 @@
 #class TrafficLight
 
 class TrafficLight:
-    color = 'red'
+    stColor = 'red'
+    rtColor = 'red'
     def __init__(self, a, b, c, d, e, f, g, h, C):
 
         #Straight
-        self.oval = C.create_oval(a, b, c, d, fill=self.color)
+        self.st = C.create_oval(a, b, c, d, fill=self.stColor)
 
         #Right Turn
-        self.oval = C.create_oval(e,f,g,h, fill = self.color)
+        self.rt = C.create_oval(e,f,g,h, fill = self.rtColor)
 
-    def getTime(self):
-        return self.time
+    def getStTime(self):
+        return self.stTime
 
-    def setTime(self, time):
-        self.time = time
+    def getRtTime(self):
+        return self.rtTime
 
-    def getTLColor(self):
-        return self.color
+    def setStTime(self, time):
+        self.stTime = time
 
-    def setTLColor(self, color):
-        self.color = color
+    def setRtTime(self, time):
+        self.rtTime = time
 
-    def toggle(self,C):
-        c = self.getTLColor()
-        print(c)
-        if c == 'red':
-            c = 'green'
-            self.setTLColor(c)
-        else:
-            c = 'red'
-            self.setTLColor(c)
-        C.itemconfig(self.oval, fill=c);
+    def getStColor(self):
+        return self.stColor
+
+    def getRtColor(self):
+        return  self.rtColor
+
+    def setStColor(self, color):
+        self.stColor = color
+
+    def setRtColor(self, color):
+        self.rtColor = color

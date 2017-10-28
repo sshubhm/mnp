@@ -10,10 +10,10 @@ class crossing:
     def __init__(self,name, url):
         self.name = name
         self.url = url
-        self.browser = webdriver.Firefox()
 
     #opening firefox
     def openFirefox(self):
+        self.browser = webdriver.Firefox()
         self.browser.maximize_window()
         self.browser.set_window_size(1366, 768)
 

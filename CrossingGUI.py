@@ -50,10 +50,11 @@ class Draw:
 
         self.C.pack()
 
-    def glow(self, tLight, roads):
-        for road in roads:
-            self.C.itemconfig(road.tLight.oval, fill="red")
-        self.C.itemconfig(tLight.oval, fill='green')
+    def turnOn(self, light):
+        self.C.itemconfig(light, fill='green')
+
+    def turnOff(self, light):
+        self.C.itemconfig(light, fill='red')
 
     def quit(self):
         print('closing')
