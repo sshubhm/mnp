@@ -1,7 +1,4 @@
-import time
-
 from crossing import *
-from TrafficLight import *
 from CrossingGUI import *
 
 cr1 = crossing("Maharaja",'https://www.google.co.in/maps/@28.7195088,77.0684701,19.25z/data=!5m1!1e1')
@@ -16,26 +13,30 @@ while 1:
     rRight = Road()
     rBottom = Road()
 
-
     #my coordinates comment them if you want to use yours, don't delete
-    rLeft.setColor(color(img[256,634]))
-    rTop.setColor(color(img[338,774]))
-    rRight.setColor(color(img[408,759]))
-    rBottom.setColor(color(img[334,617]))
+    #rLeft.setColor(color(img[256,634]))
+    #rTop.setColor(color(img[338,774]))
+    #rRight.setColor(color(img[408,759]))
+    #rBottom.setColor(color(img[334,617]))
 
-    # rLeft.setColor("green")
-    # rTop.setColor("red")
-    # rRight.setColor("maroon")
-    # rBottom.setColor("orange")
+    # jatin's coordinates
+    rLeft.setColor(color(img[258,587]))
+    rTop.setColor(color(img[351,743]))
+    rRight.setColor(color(img[411,710]))
+    rBottom.setColor(color(img[336,594]))
 
+    #rLeft.setColor(color("green"))
+    #rTop.setColor(color("green"))
+    #rRight.setColor(color("green"))
+    #rBottom.setColor(color("green"))
 
 
     #creating the board
     board = Draw(rLeft,rRight,rTop,rBottom)
-    rLeft.createLight(270,290,290,310,board.C)
-    rTop.createLight(290,270,310,290,board.C)
-    rRight.createLight(310, 290, 330, 310,board.C)
-    rBottom.createLight(290, 310, 310, 330,board.C)
+    rLeft.createLight(260,270,270,280,260,290,270,300,board.C)
+    rTop.createLight(320,260,330,270,300,260,310,270,board.C)
+    rRight.createLight(330,300,340,310,330, 320, 340, 330,board.C)
+    rBottom.createLight(270,330,280,340,290, 330, 300, 340,board.C)
 
 
     #round robin scheduling

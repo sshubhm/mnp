@@ -15,8 +15,8 @@ def color(a):
         return a
 
 class Road:
-    def createLight(self,a,b,c,d,C):
-        self.tLight = TrafficLight(a,b,c,d,C)
+    def createLight(self,a,b,c,d,e,f,g,h,C):
+        self.tLight = TrafficLight(a,b,c,d,e,f,g,h,C)
     def getColor(self):
         return self.color
     def setColor(self, color):

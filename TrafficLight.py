@@ -2,8 +2,13 @@
 
 class TrafficLight:
     color = 'red'
-    def __init__(self, a, b, c, d, C):
+    def __init__(self, a, b, c, d, e, f, g, h, C):
+
+        #Straight
         self.oval = C.create_oval(a, b, c, d, fill=self.color)
+
+        #Right Turn
+        self.oval = C.create_oval(e,f,g,h, fill = self.color)
 
     def getTime(self):
         return self.time
