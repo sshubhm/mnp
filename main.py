@@ -14,10 +14,18 @@ rRight = Road()
 rBottom = Road()
 
 #Shubham's coordinates comment them if you want to use yours, don't delete
-rLeft.setColor(color(img[256,634]))
-rTop.setColor(color(img[338,774]))
-rRight.setColor(color(img[408,759]))
-rBottom.setColor(color(img[334,617]))
+# rLeft.setColor(color(img[256,634]))
+# rTop.setColor(color(img[338,774]))
+# rRight.setColor(color(img[408,759]))
+# rBottom.setColor(color(img[334,617]))
+
+#testing colors
+rLeft.setColor('red')
+rTop.setColor('green')
+rRight.setColor('green')
+rBottom.setColor('green')
+
+
 
 # jatin's coordinates
 # rLeft.setColor(color(img[258,587]))
@@ -35,7 +43,7 @@ rBottom.setColor(color(img[334,617]))
 board = Draw(rLeft,rRight,rTop,rBottom)
 rLeft.createLight(260,270,270,280,260,290,270,300,board.C)
 rTop.createLight(320,260,330,270,300,260,310,270,board.C)
-rRight.createLight(330,300,340,310,330, 320, 340, 330,board.C)
+rRight.createLight(330, 320, 340, 330, 330,300,340,310,board.C)
 rBottom.createLight(270,330,280,340,290, 330, 300, 340,board.C)
 
 
@@ -86,27 +94,102 @@ for road in roads:
 
 #new algorithm
 
-#finding the time of right light for max congestion
-if(rLeft.tLight.getStTime() < rRight.tLight.getStTime()):
-    min = rRight.tLight.getStTime() - (rLeft.tLight.getStTime() - rLeft.tLight.getRtTime())
-
-else:
-    min = rLeft.tLight.getStTime() - (rRight.tLight.getStTime() - rRight.tLight.getRtTime())
+#controling the horizontal road
+#turning on both the rLeft
 board.turnOn(rLeft.tLight.st)
 board.turnOn(rLeft.tLight.rt)
-delay = rLeft.tLight.getStTime()
-# turning off the rleft right turn light
-board.top.after(rLeft.tLight.getRtTime() * 1000, board.turnOff, rLeft.tLight.rt)
+delay = 0
+#finding max congestion
 
-# turning on rRight st light
-board.top.after(rLeft.tLight.getRtTime() * 1000, board.turnOn, rRight.tLight.st)
+#if right congestion is greater
+if (rLeft.tLight.getStTime() < rRight.tLight.getStTime()):
+    delay = rLeft.tLight.getRtTime()
 
-#turning off rLeft st light
-#board.top.after(delay * 1000, board.turnOff,rLeft.tLight.st)
+    #turning off rLeft.rt
+    board.top.after(delay * 1000,board.turnOff,rLeft.tLight.rt)
 
-#turning on rRight rt light
-#board.top.after(delay * 1000, board.turnOn,rRight.tLight.rt)
-print(1)
+    #turning on rRight.st
+    board.top.after(delay * 1000, board.turnOn, rRight.tLight.st)
+    delay = rLeft.tLight.getStTime()
+
+    #turning off rLeft.st
+    board.top.after(delay * 1000, board.turnOff, rLeft.tLight.st)
+    #turning on rRight.rt
+    board.top.after(delay * 1000, board.turnOn, rRight.tLight.rt)
+
+    #turning off both right lights
+    delay = rRight.tLight.getStTime()
+    board.top.after(delay * 1000, board.turnOff, rRight.tLight.st)
+    board.top.after(delay * 1000, board.turnOff, rRight.tLight.rt)
+
+else:
+    timeMax = rLeft.tLight.getStTime() - (rRight.tLight.getStTime() - rRight.tLight.getRtTime())
+    delay = timeMax
+
+    #turning off rLeft.rt
+    board.top.after(delay * 1000, board.turnOff, rLeft.tLight.rt)
+    #turning on rRight.st
+    board.top.after(delay * 1000, board.turnOn, rRight.tLight.st)
+
+    #turning off rLeft.st
+    delay = rLeft.tLight.getStTime()
+    board.top.after(delay * 1000, board.turnOff, rLeft.tLight.st)
+    #turning on rRight.rt
+    board.top.after(delay * 1000, board.turnOn, rRight.tLight.rt)
+
+    #turning off both right lights
+    delay = rRight.tLight.getStTime() +timeMax
+    board.top.after(delay * 1000, board.turnOff, rRight.tLight.st)
+    board.top.after(delay * 1000, board.turnOff, rRight.tLight.rt)
+
+#controling the vertical road
+#turning on both the rTop
+time = delay
+board.top.after(time * 1000,board.turnOn,rTop.tLight.st)
+board.top.after(time * 1000,board.turnOn,rTop.tLight.rt)
+
+#finding max congestion
+
+#if Bottom congestion is greater
+if (rTop.tLight.getStTime() < rBottom.tLight.getStTime()):
+    delay = rTop.tLight.getRtTime() + time
+
+    #turning off rTop.rt
+    board.top.after(delay * 1000,board.turnOff,rTop.tLight.rt)
+
+    #turning on rBottom.st
+    board.top.after(delay * 1000, board.turnOn, rBottom.tLight.st)
+    delay = rTop.tLight.getStTime()
+
+    #turning off rTop.st
+    board.top.after(delay * 1000, board.turnOff, rTop.tLight.st)
+    #turning on rBottom.rt
+    board.top.after(delay * 1000, board.turnOn, rBottom.tLight.rt)
+
+    #turning off both Bottom lights
+    delay = rBottom.tLight.getStTime() + time
+    board.top.after(delay * 1000, board.turnOff, rBottom.tLight.st)
+    board.top.after(delay * 1000, board.turnOff, rBottom.tLight.rt)
+
+else:
+    timeMax = rTop.tLight.getStTime() - (rBottom.tLight.getStTime() - rBottom.tLight.getRtTime())
+    delay = timeMax + time
+
+    #turning off rTop.rt
+    board.top.after(delay * 1000, board.turnOff, rTop.tLight.rt)
+    #turning on rBottom.st
+    board.top.after(delay * 1000, board.turnOn, rBottom.tLight.st)
+
+    #turning off rTop.st
+    delay = rTop.tLight.getStTime() + time
+    board.top.after(delay * 1000, board.turnOff, rTop.tLight.st)
+    #turning on rBottom.rt
+    board.top.after(delay * 1000, board.turnOn, rBottom.tLight.rt)
+
+    #turning off both Bottom lights
+    delay = rBottom.tLight.getStTime() +timeMax + time
+    board.top.after(delay * 1000, board.turnOff, rBottom.tLight.st)
+    board.top.after(delay * 1000, board.turnOff, rBottom.tLight.rt)
 
 board.top.mainloop()
 
