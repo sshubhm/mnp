@@ -33,6 +33,7 @@ while 1:
     # rRight.setColor(color(img[411,710]))
     # rBottom.setColor(color(img[336,594]))
 
+
     #rLeft.setColor(color("green"))
     #rTop.setColor(color("green"))
     #rRight.setColor(color("green"))
@@ -99,8 +100,8 @@ while 1:
     board.turnOn(rLeft.tLight.st)
     board.turnOn(rLeft.tLight.rt)
     delay = 0
-    #finding max congestion
 
+    #finding max congestion
     #if right congestion is greater
     if (rLeft.tLight.getStTime() < rRight.tLight.getStTime()):
         delay = rLeft.tLight.getRtTime()
@@ -159,7 +160,7 @@ while 1:
 
         #turning on rBottom.st
         board.top.after(delay * 1000, board.turnOn, rBottom.tLight.st)
-        delay = rTop.tLight.getStTime()
+        delay = rTop.tLight.getStTime() + time
 
         #turning off rTop.st
         board.top.after(delay * 1000, board.turnOff, rTop.tLight.st)
