@@ -27,5 +27,9 @@ class crossing:
         img = cv2.imread(self.name+".png")
         return img
 
+    def cropImg(self,img,startY,endY,startX,endX):
+        img = img[startY:endY, startX:endX]
+        return img
+
     def getName(self):
         print self.name
