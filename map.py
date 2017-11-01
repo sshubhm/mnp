@@ -8,9 +8,9 @@ class map:
     #init method to set name and url of crossing
 
     def __init__(self,name, url):
-        self.name = name
+        self.name = name;
         self.url = url
-
+        self.openFirefox()
     #opening firefox
     def openFirefox(self):
         self.browser = webdriver.Firefox()

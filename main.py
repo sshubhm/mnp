@@ -5,11 +5,9 @@ import thread
 import time
 import Image
 
-cr1 = map("New_Image",'https://www.google.co.in/maps/@28.6971866,77.1446998,15z/data=!5m1!1e1')
+#cr1 = map("New_Image",'https://www.google.co.in/maps/@28.6971866,77.1446998,15z/data=!5m1!1e1')
 #cr1.openFirefox()
 #cr1.getUpdate()
-img = cr1.fetch()
-# img1 = cr1.cropImg(img,0,768,0,430)
 # pil_im = Image.fromarray(img1)
 # cv2.imshow("1", img1)
 # cv2.imshow("2", cr1.cropImg(img,0,768,430,530))
@@ -22,11 +20,12 @@ img = cr1.fetch()
 
 
 #creating crossings
-c1 = crossing('c1')
-c2 = crossing('c2')
-c3 = crossing('c3')
-c4 = crossing('c4')
-c5 = crossing('c5')
+c1 = crossing('c1', 'https://www.google.co.in/maps/@28.7037435,77.1313585,19z/data=!5m1!1e1')
+c2 = crossing('c2', 'https://www.google.co.in/maps/@28.700744,77.1359014,18.5z/data=!5m1!1e1')
+c3 = crossing('c3', 'https://www.google.co.in/maps/@28.6988657,77.1383807,18.5z/data=!5m1!1e1')
+c4 = crossing('c4', 'https://www.google.co.in/maps/@28.6953937,77.1465191,19.5z/data=!5m1!1e1')
+c5 = crossing('c5', 'https://www.google.co.in/maps/@28.6942465,77.1500341,18.5z/data=!5m1!1e1')
+
 
 
 board = Draw(c1,c2,c3,c4,c5)
@@ -65,22 +64,10 @@ c5.rBottom.createLight(0, 0, 0, 0, 0, 0, 0, 0,board.C)
 
 def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
     while 1:
-        if xL != 0:
-            crossing.rLeft.setColor(color(img[xL,yL]))
-        else:
-            crossing.rLeft.setColor('white')
-        if xT != 0:
-            crossing.rTop.setColor(color(img[xT,yT]))
-        else:
-            crossing.rTop.setColor('white')
-        if xR != 0:
-            crossing.rRight.setColor(color(img[xR,yR]))
-        else:
-            crossing.rRight.setColor('white')
-        if xB != 0:
-            crossing.rBottom.setColor(color(img[xB,yB]))
-        else:
-            crossing.rBottom.setColor('white')
+        crossing.rLeft.setColor(color(crossing.img[xL,yL]))
+        crossing.rTop.setColor(color(crossing.img[xT,yT]))
+        crossing.rRight.setColor(color(crossing.img[xR,yR]))
+        crossing.rBottom.setColor(color(crossing.img[xB,yB]))
 
 
         roads = [crossing.rLeft, crossing.rRight, crossing.rTop, crossing.rBottom]
@@ -210,11 +197,11 @@ def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
 
 #controlling the lights
 #use your own coordinates comment mine
-thread.start_new_thread(controlLight, (c1, 125, 355, 130, 375, 152, 375, 147, 354))
-thread.start_new_thread(controlLight, (c2, 217, 468, 0, 0, 236, 480, 232, 466))
-thread.start_new_thread(controlLight, (c3, 258, 523, 259, 565, 287, 552, 292, 530))
-# thread.start_new_thread(controlLight, (c4, ))
-# thread.start_new_thread(controlLight, ())
+thread.start_new_thread(controlLight, (c1, 494, 76, 138, 749, 361, 748, 256, 483))
+thread.start_new_thread(controlLight, (c2, 299, 662, 0, 0, 365, 693, 372, 621))
+thread.start_new_thread(controlLight, (c3, 282, 720, 288, 793, 353, 758, 380, 705))
+thread.start_new_thread(controlLight, (c4, 282, 707, 0, 0, 390, 797, 439, 702))
+thread.start_new_thread(controlLight, (c5, 259, 568, 260, 706, 376, 811, 0, 0))
 # thread.start_new_thread(controlLight, (c1, ))
 # thread.start_new_thread(controlLight, (c1, ))
 board.top.mainloop()
