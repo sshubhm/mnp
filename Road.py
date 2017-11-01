@@ -12,7 +12,7 @@ def color(a):
     elif np.array_equal(a, [19, 19, 158]):
         return "maroon"
     else:
-        return a
+        return "white"
 
 class Road:
     def createLight(self,a,b,c,d,e,f,g,h,C):

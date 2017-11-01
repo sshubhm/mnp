@@ -70,15 +70,15 @@ def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
         else:
             crossing.rLeft.setColor('white')
         if xT != 0:
-            crossing.rTop.setColor(color(img[xL,yL]))
+            crossing.rTop.setColor(color(img[xT,yT]))
         else:
             crossing.rTop.setColor('white')
         if xR != 0:
-            crossing.rRight.setColor(color(img[xL,yL]))
+            crossing.rRight.setColor(color(img[xR,yR]))
         else:
             crossing.rRight.setColor('white')
         if xB != 0:
-            crossing.rBottom.setColor(color(img[xL,yL]))
+            crossing.rBottom.setColor(color(img[xB,yB]))
         else:
             crossing.rBottom.setColor('white')
 
