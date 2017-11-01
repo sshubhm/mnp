@@ -71,7 +71,14 @@ class Draw:
 
         line = self.C.create_line(950,175,975,175,dash=(2,4))
         line = self.C.create_line(970,170,975,175)
-        #cd line = self.C.create_line(970,)
+        line = self.C.create_line(970,180,975,175)
+
+        # txt = self.C.create_text(1000,175,text="NSP")
+        # txt = self.C.create_text(18,175,text="Rohini")
+        # txt = self.C.create_text(270, 140, text="Pitampura metro")
+        # txt = self.C.create_text(550, 140, text="Pitampura")
+        # txt = self.C.create_text(18, 175, text="Rohini")
+
         self.C.pack()
 
         # self.frame = Tkinter.Frame(self.top, width=1366, height=768, background='white')
