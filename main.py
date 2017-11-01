@@ -2,12 +2,12 @@ from crossing import *
 from CrossingGUI import *
 import Image
 
-cr1 = crossing("New_Image",'https://www.google.co.in/maps/@28.6971866,77.1446998,15z/data=!5m1!1e1')
-cr1.openFirefox()
-cr1.getUpdate()
-img = cr1.fetch()
-img1 = cr1.cropImg(img,0,768,0,430)
-pil_im = Image.fromarray(img1)
+# cr1 = crossing("New_Image",'https://www.google.co.in/maps/@28.6971866,77.1446998,15z/data=!5m1!1e1')
+# cr1.openFirefox()
+# cr1.getUpdate()
+# img = cr1.fetch()
+# img1 = cr1.cropImg(img,0,768,0,430)
+# pil_im = Image.fromarray(img1)
 # cv2.imshow("1", img1)
 # cv2.imshow("2", cr1.cropImg(img,0,768,430,530))
 # cv2.imshow("3", cr1.cropImg(img,0,768,530,650))
@@ -15,7 +15,46 @@ pil_im = Image.fromarray(img1)
 # cv2.imshow("5", cr1.cropImg(img,0,768,790,1366))
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
-board = Draw(pil_im, cr1.cropImg(img,0,768,430,530), cr1.cropImg(img,0,768,530,650), cr1.cropImg(img,0,768,650,790), cr1.cropImg(img,0,768,790,1366))
+#board = Draw(pil_im, cr1.cropImg(img,0,768,430,530), cr1.cropImg(img,0,768,530,650), cr1.cropImg(img,0,768,650,790), cr1.cropImg(img,0,768,790,1366))
+
+
+#creating the board
+rLeft = Road()
+rTop = Road()
+rRight = Road()
+rBottom = Road()
+
+board = Draw(rLeft,rRight,rTop,rBottom)
+#1st crossing
+# rLeft.createLight(150,160,155,165,150,170,155,175,board.C)
+# rTop.createLight(185,150,190,155,175,150,180,155,board.C)
+# rRight.createLight(195, 185, 200, 190, 195, 175, 200, 180,board.C)
+# rBottom.createLight(160, 195, 165, 200, 170, 195, 175, 200,board.C)
+
+#2nd T point
+# rLeft.createLight(300,160,305,165,300,170,305,175,board.C)
+# rTop.createLight(0,0,0,0,0,0,0,0,board.C)
+# rRight.createLight(345, 185, 350, 190, 345, 175, 350, 180,board.C)
+# rBottom.createLight(310, 195, 315, 200, 320, 195, 325, 200,board.C)
+
+#3rd Crossing
+# rLeft.createLight(450,160,455,165,450,170,455,175,board.C)
+# rTop.createLight(485,150,490,155,475,150,480,155,board.C)
+# rRight.createLight(495, 185, 500, 190, 495, 175, 500, 180,board.C)
+# rBottom.createLight(460, 195, 465, 200, 470, 195, 475, 200,board.C)
+
+#4th T Point
+# rLeft.createLight(600,160,605,165,600,170,605,175,board.C)
+# rTop.createLight(0,0,0,0,0,0,0,0,board.C)
+# rRight.createLight(645, 185, 650, 190, 645, 175, 650, 180,board.C)
+# rBottom.createLight(610, 195, 615, 200, 620, 195, 625, 200,board.C)
+
+#5th T Point
+rLeft.createLight(750,160,755,165,750,170,755,175,board.C)
+rTop.createLight(785,150,790,155,775,150,780,155,board.C)
+rRight.createLight(795, 185, 800, 190, 795, 175, 800, 180,board.C)
+rBottom.createLight(0, 0, 0, 0, 0, 0, 0, 0,board.C)
+
 board.top.mainloop()
 
 # while 1:
