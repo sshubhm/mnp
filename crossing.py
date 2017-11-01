@@ -6,11 +6,11 @@ class crossing:
         self.mapc.getUpdate()
         self.img = self.mapc.fetch()
         self.name = name
-        self.createRoad()
+        #self.createRoad(xl,yl,xt,yt,xr,yr,xb,yb,C)
         self.delay = 0
 
-    def createRoad(self):
-        self.rLeft = Road()
-        self.rRight = Road()
-        self.rTop = Road()
-        self.rBottom = Road()
+    def createRoad(self,xl,yl,xt,yt,xr,yr,xb,yb,C):
+        self.rLeft = Road(xl,yl,C)
+        self.rRight = Road(xt,yt,C)
+        self.rTop = Road(xr,yr,C)
+        self.rBottom = Road(xb,yb,C)
