@@ -41,7 +41,7 @@ c1.rBottom.createLight(160, 195, 165, 200, 170, 195, 175, 200,board.C)
 c2.rLeft.createLight(300,160,305,165,300,170,305,175,board.C)
 c2.rTop.createLight(0,0,0,0,0,0,0,0,board.C)
 c2.rRight.createLight(345, 185, 350, 190, 345, 175, 350, 180,board.C)
-c2.rBottom.createLight(310, 195, 315, 200, 320, 195, 325, 200,board.C)
+c2.rBottom.createLight(0, 0, 0, 0, 320, 195, 325, 200,board.C)
 
 #3rd Crossing
 c3.rLeft.createLight(450,160,455,165,450,170,455,175,board.C)
@@ -53,11 +53,11 @@ c3.rBottom.createLight(460, 195, 465, 200, 470, 195, 475, 200,board.C)
 c4.rLeft.createLight(600,160,605,165,600,170,605,175,board.C)
 c4.rTop.createLight(0,0,0,0,0,0,0,0,board.C)
 c4.rRight.createLight(645, 185, 650, 190, 645, 175, 650, 180,board.C)
-c4.rBottom.createLight(610, 195, 615, 200, 620, 195, 625, 200,board.C)
+c4.rBottom.createLight(0, 0, 0, 0, 620, 195, 625, 200,board.C)
 
 #5th T Point
 c5.rLeft.createLight(750,160,755,165,750,170,755,175,board.C)
-c5.rTop.createLight(785,150,790,155,775,150,780,155,board.C)
+c5.rTop.createLight(0,0,0,0,775,150,780,155,board.C)
 c5.rRight.createLight(795, 185, 800, 190, 795, 175, 800, 180,board.C)
 c5.rBottom.createLight(0, 0, 0, 0, 0, 0, 0, 0,board.C)
 

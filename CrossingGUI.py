@@ -73,10 +73,33 @@ class Draw:
         line = self.C.create_line(970,170,975,175)
         line = self.C.create_line(970,180,975,175)
 
-        # txt = self.C.create_text(1000,175,text="NSP")
-        # txt = self.C.create_text(18,175,text="Rohini")
+        txt = self.C.create_text(1000,175,text="NSP")
+        txt = self.C.create_text(18,175,text="Rohini")
         # txt = self.C.create_text(270, 140, text="Pitampura metro")
-        # txt = self.C.create_text(550, 140, text="Pitampura")
+        # txt = self.C.create_text(550, 140, text="Pitampura")cd
+
+        txt = self.C.create_text(145, 143, text="0")
+        txt = self.C.create_text(205, 143, text="1")
+        txt = self.C.create_text(205, 208, text="2")
+        txt = self.C.create_text(145, 208, text="3")
+
+        txt = self.C.create_text(295, 143, text="0")
+        txt = self.C.create_text(355, 208, text="1")
+        txt = self.C.create_text(295, 208, text="2")
+
+        txt = self.C.create_text(445, 143, text="0")
+        txt = self.C.create_text(505, 143, text="1")
+        txt = self.C.create_text(505, 208, text="2")
+        txt = self.C.create_text(445, 208, text="3")
+
+        txt = self.C.create_text(595, 143, text="0")
+        txt = self.C.create_text(655, 208, text="1")
+        txt = self.C.create_text(595, 208, text="2")
+
+        txt = self.C.create_text(745, 143, text="0")
+        txt = self.C.create_text(805, 143, text="1")
+        txt = self.C.create_text(805, 208, text="2")
+
         # txt = self.C.create_text(18, 175, text="Rohini")
 
         self.C.pack()
