@@ -1,11 +1,13 @@
 from crossing import *
 from CrossingGUI import *
+import Image
 
 cr1 = crossing("New_Image",'https://www.google.co.in/maps/@28.6971866,77.1446998,15z/data=!5m1!1e1')
 cr1.openFirefox()
 cr1.getUpdate()
 img = cr1.fetch()
 img1 = cr1.cropImg(img,0,768,0,430)
+pil_im = Image.fromarray(img1)
 # cv2.imshow("1", img1)
 # cv2.imshow("2", cr1.cropImg(img,0,768,430,530))
 # cv2.imshow("3", cr1.cropImg(img,0,768,530,650))
@@ -13,7 +15,7 @@ img1 = cr1.cropImg(img,0,768,0,430)
 # cv2.imshow("5", cr1.cropImg(img,0,768,790,1366))
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
-board = Draw(img1, cr1.cropImg(img,0,768,430,530), cr1.cropImg(img,0,768,530,650), cr1.cropImg(img,0,768,650,790), cr1.cropImg(img,0,768,790,1366))
+board = Draw(pil_im, cr1.cropImg(img,0,768,430,530), cr1.cropImg(img,0,768,530,650), cr1.cropImg(img,0,768,650,790), cr1.cropImg(img,0,768,790,1366))
 board.top.mainloop()
 
 # while 1:
