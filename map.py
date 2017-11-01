@@ -4,7 +4,7 @@ from selenium import webdriver
 import numpy as np
 from Road import *
 
-class crossing:
+class map:
     #init method to set name and url of crossing
 
     def __init__(self,name, url):

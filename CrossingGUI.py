@@ -14,7 +14,7 @@ from PIL import Image, ImageTk
 
 
 class Draw:
-    def __init__(self, rLeft, rTop, rRight, rBottom):
+    def __init__(self, c1,c2,c3,c4,c5):
         self.top = Tkinter.Tk()
         self.C = Tkinter.Canvas(self.top, height=768, width=1366)
 
