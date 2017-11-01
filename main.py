@@ -159,6 +159,9 @@ def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
                 # turning on rRight st
                 board.turnOn(crossing.rBottom.tLight.st)
 
+                #getting update
+                crossing.mapc.getUpdate()
+                crossing.img = crossing.mapc.fetch()
                 # finding time to turn off rLeft st
                 timest = crossing.rTop.tLight.getStTime() - timeRt
                 time.sleep(timest)
@@ -180,6 +183,9 @@ def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
                 # turning on rRight st
                 board.turnOn(crossing.rBottom.tLight.st)
 
+                # getting update
+                crossing.mapc.getUpdate()
+                crossing.img = crossing.mapc.fetch()
                 # finding time to turn off rLeft st
                 timest = crossing.rBottom.tLight.getStTime() - timeRt
                 time.sleep(timest)
@@ -197,7 +203,7 @@ def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
 
 #controlling the lights
 #use your own coordinates comment mine
-thread.start_new_thread(controlLight, (c1, 494, 76, 138, 749, 361, 748, 256, 483))
+thread.start_new_thread(controlLight, (c1, 78, 495, 138, 749, 361, 748, 256, 483))
 thread.start_new_thread(controlLight, (c2, 299, 662, 0, 0, 365, 693, 372, 621))
 thread.start_new_thread(controlLight, (c3, 282, 720, 288, 793, 353, 758, 380, 705))
 thread.start_new_thread(controlLight, (c4, 282, 707, 0, 0, 390, 797, 439, 702))

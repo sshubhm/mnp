@@ -12,6 +12,7 @@ def color(a):
     elif np.array_equal(a, [19, 19, 158]):
         return "maroon"
     else:
+        print('white')
         return "white"
 
 class Road:
