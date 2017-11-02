@@ -30,10 +30,10 @@ c5 = crossing('c5', 'https://www.google.co.in/maps/@28.6942465,77.1500341,18.5z/
 
 board = Draw(c1,c2,c3,c4,c5)
 c1.createRoad(145,143, 205, 208,205, 143, 145, 208, board.C)
-c2.createRoad(295, 143,355, 208, 295, 208,0,0,board.C)
+c2.createRoad(295, 143,355, 208, 0, 0, 295, 208,board.C)
 c3.createRoad(445, 143,505, 208,505, 143,445, 208,board.C)
-c4.createRoad(595, 143,655, 208, 595, 208, 0,0, board.C)
-c5.createRoad(745, 143,0,0,805, 143,805, 208,board.C)
+c4.createRoad(595, 143,655, 208,0,0, 595, 208, board.C)
+c5.createRoad(745, 143,805, 208, 805, 143,0,0,board.C)
 
 #1st crossing
 c1.rLeft.createLight(150,160,155,165,150,170,155,175,board.C)
@@ -91,6 +91,7 @@ def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
                 road.tLight.setStTime(15)
                 road.tLight.setRtTime(10)
             elif rColor == 'white':
+                print('white color')
                 road.tLight.setStTime(0)
                 road.tLight.setRtTime(0)
         #turning on both rLeft lights
@@ -154,75 +155,75 @@ def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
             board.turnOff(crossing.rRight.tLight.st)
             board.turnOff(crossing.rRight.tLight.rt)
 
-            # controlling the vertical lights
+        # controlling the vertical lights
 
-            board.turnOn(crossing.rTop.tLight.st)
-            board.turnOn(crossing.rTop.tLight.rt)
-            #setting timer
-            thread.start_new_thread(crossing.rTop.startTimer,(board.C, crossing.rTop.tLight.getStTime()))
-            # checking for max congestion
-            if(crossing.rTop.tLight.getStTime() == 0):
-                board.turnOn(crossing.rBottom.tLight.rt)
-            if crossing.rTop.tLight.getStTime() > crossing.rBottom.tLight.getStTime():
-                print ('if')
-                # finding time for rLeft rt
-                timeRt = crossing.rTop.tLight.getStTime() - (crossing.rBottom.tLight.getStTime() - crossing.rBottom.tLight.getRtTime())
-                time.sleep(timeRt)
-                # turning off rt
-                board.turnOff(crossing.rTop.tLight.rt)
-                # turning on rRight st
-                board.turnOn(crossing.rBottom.tLight.st)
-                #starting timer
-                thread.start_new_thread(crossing.rBottom.startTimer,(board.C,crossing.rBottom.tLight.getStTime()))
-                #getting update
-                crossing.mapc.getUpdate()
-                crossing.img = crossing.mapc.fetch()
-                # finding time to turn off rLeft st
-                timest = crossing.rTop.tLight.getStTime() - timeRt
-                time.sleep(timest)
-                # turning off rLeft st
-                board.turnOff(crossing.rTop.tLight.st)
-                # turning on rRight rt
-                board.turnOn(crossing.rBottom.tLight.rt)
-                # finding time to turn off rRight lights
-                timest = crossing.rBottom.tLight.getStTime() - timest
-                time.sleep(timest)
-                board.turnOff(crossing.rBottom.tLight.st)
-                board.turnOff(crossing.rBottom.tLight.rt)
-            else:
-                # finding time for rLeft rt
-                timeRt = crossing.rTop.tLight.getRtTime()
-                time.sleep(timeRt)
-                # turning off rt
-                board.turnOff(crossing.rTop.tLight.rt)
-                # turning on rRight st
-                board.turnOn(crossing.rBottom.tLight.st)
-                #starting timer
-                thread.start_new_thread(crossing.rBottom.startTimer, (board.C, crossing.rBottom.tLight.getStTime()))
+        board.turnOn(crossing.rTop.tLight.st)
+        board.turnOn(crossing.rTop.tLight.rt)
+        #setting timer
+        thread.start_new_thread(crossing.rTop.startTimer,(board.C, crossing.rTop.tLight.getStTime()))
+        # checking for max congestion
+        if(crossing.rTop.tLight.getStTime() == 0):
+            board.turnOn(crossing.rBottom.tLight.rt)
+        if crossing.rTop.tLight.getStTime() > crossing.rBottom.tLight.getStTime():
+            print ('if')
+            # finding time for rLeft rt
+            timeRt = crossing.rTop.tLight.getStTime() - (crossing.rBottom.tLight.getStTime() - crossing.rBottom.tLight.getRtTime())
+            time.sleep(timeRt)
+            # turning off rt
+            board.turnOff(crossing.rTop.tLight.rt)
+            # turning on rRight st
+            board.turnOn(crossing.rBottom.tLight.st)
+            #starting timer
+            thread.start_new_thread(crossing.rBottom.startTimer,(board.C,crossing.rBottom.tLight.getStTime()))
+            #getting update
+            crossing.mapc.getUpdate()
+            crossing.img = crossing.mapc.fetch()
+            # finding time to turn off rLeft st
+            timest = crossing.rTop.tLight.getStTime() - timeRt
+            time.sleep(timest)
+            # turning off rLeft st
+            board.turnOff(crossing.rTop.tLight.st)
+            # turning on rRight rt
+            board.turnOn(crossing.rBottom.tLight.rt)
+            # finding time to turn off rRight lights
+            timest = crossing.rBottom.tLight.getStTime() - timest
+            time.sleep(timest)
+            board.turnOff(crossing.rBottom.tLight.st)
+            board.turnOff(crossing.rBottom.tLight.rt)
+        else:
+            # finding time for rLeft rt
+            timeRt = crossing.rTop.tLight.getRtTime()
+            time.sleep(timeRt)
+            # turning off rt
+            board.turnOff(crossing.rTop.tLight.rt)
+            # turning on rRight st
+            board.turnOn(crossing.rBottom.tLight.st)
+            #starting timer
+            thread.start_new_thread(crossing.rBottom.startTimer, (board.C, crossing.rBottom.tLight.getStTime()))
 
-                # getting update
-                crossing.mapc.getUpdate()
-                crossing.img = crossing.mapc.fetch()
-                # finding time to turn off rLeft st
-                timest = crossing.rBottom.tLight.getStTime() - timeRt
-                time.sleep(timest)
-                # turning off rLeft st
-                board.turnOff(crossing.rTop.tLight.st)
-                # turning on rRight rt
-                board.turnOn(crossing.rBottom.tLight.rt)
+            # getting update
+            crossing.mapc.getUpdate()
+            crossing.img = crossing.mapc.fetch()
+            # finding time to turn off rLeft st
+            timest = crossing.rBottom.tLight.getStTime() - timeRt
+            time.sleep(timest)
+            # turning off rLeft st
+            board.turnOff(crossing.rTop.tLight.st)
+            # turning on rRight rt
+            board.turnOn(crossing.rBottom.tLight.rt)
 
-                # finding time to turn off both rRight
-                timeRt = crossing.rBottom.tLight.getStTime() - timest
-                time.sleep(timeRt)
-                board.turnOff(crossing.rBottom.tLight.st)
-                board.turnOff(crossing.rBottom.tLight.rt)
+            # finding time to turn off both rRight
+            timeRt = crossing.rBottom.tLight.getStTime() - timest
+            time.sleep(timeRt)
+            board.turnOff(crossing.rBottom.tLight.st)
+            board.turnOff(crossing.rBottom.tLight.rt)
 
 
 #controlling the lights
 #use your own coordinates comment mine
-thread.start_new_thread(controlLight, (c1, 78, 496, 128, 687, 361, 748, 256, 483))
+thread.start_new_thread(controlLight, (c1, 78, 496, 14, 774, 361, 748, 256, 483))
 thread.start_new_thread(controlLight, (c2, 13, 670, 0, 0, 362, 772, 412, 406))
-thread.start_new_thread(controlLight, (c3, 282, 720, 285, 796, 353, 758, 380, 705))
+thread.start_new_thread(controlLight, (c3, 282, 720, 285, 796, 353, 758, 343, 702))
 thread.start_new_thread(controlLight, (c4, 282, 707, 0, 0, 390, 797, 411, 710))
 thread.start_new_thread(controlLight, (c5, 259, 568, 260, 706, 376, 811, 0, 0))
 board.top.mainloop()

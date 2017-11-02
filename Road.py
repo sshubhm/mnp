@@ -12,6 +12,7 @@ def color(a):
     elif np.array_equal(a, [19, 19, 158]):
         return "maroon"
     else:
+        print('stealth')
         return "white"
 
 class Road:
@@ -31,8 +32,8 @@ class Road:
         self.txt = C.create_text(a, b, text=self.inner)
 
     def startTimer(self,C,time1):
-        if(self.a == 0):
-            time1 = -1
+        # if(self.a == 0):
+        #     time1 = -1
         while time1 != -1:
             C.itemconfig(self.txt, text = time1)
             time.sleep(1)
