@@ -26,44 +26,44 @@ c3 = crossing('c3', 'https://www.google.co.in/maps/@28.6988657,77.1383807,18.5z/
 c4 = crossing('c4', 'https://www.google.co.in/maps/@28.6953937,77.1465191,19.5z/data=!5m1!1e1')
 c5 = crossing('c5', 'https://www.google.co.in/maps/@28.6942465,77.1500341,18.5z/data=!5m1!1e1')
 
-
+y=150
 
 board = Draw(c1,c2,c3,c4,c5)
-c1.createRoad(145,143, 205, 208,205, 143, 145, 208, board.C)
-c2.createRoad(295, 143,355, 208, 0, 0, 295, 208,board.C)
-c3.createRoad(445, 143,505, 208,505, 143,445, 208,board.C)
-c4.createRoad(595, 143,655, 208,0,0, 595, 208, board.C)
-c5.createRoad(745, 143,805, 208, 805, 143,0,0,board.C)
+c1.createRoad(145, 143+y, 255, 258+y, 255, 143+y, 145, 258+y, board.C)
+c2.createRoad(345, 143+y, 455, 258+y, 0, 0, 345, 258+y, board.C)
+c3.createRoad(545, 143+y, 655, 258+y, 655, 143+y, 545, 258+y, board.C)
+c4.createRoad(745, 143+y, 855, 258+y, 0, 0, 745, 258+y, board.C)
+c5.createRoad(945, 143+y, 1055, 258+y, 1055, 143+y, 0, 0, board.C)
 
 #1st crossing
-c1.rLeft.createLight(150,160,155,165,150,170,155,175,board.C)
-c1.rTop.createLight(185,150,190,155,175,150,180,155,board.C)
-c1.rRight.createLight(195, 185, 200, 190, 195, 175, 200, 180,board.C)
-c1.rBottom.createLight(160, 195, 165, 200, 170, 195, 175, 200,board.C)
+c1.rLeft.createLight(150, 170+y, 160, 180+y, 150, 190+y, 160, 200+y, board.C)
+c1.rTop.createLight(220, 150+y, 230, 160+y, 200, 150+y, 210, 160+y, board.C)
+c1.rRight.createLight(240, 220+y, 250, 230+y, 240, 200+y, 250, 210+y, board.C)
+c1.rBottom.createLight(170, 240+y, 180, 250+y, 190, 240+y, 200, 250+y, board.C)
 
 #2nd T point
-c2.rLeft.createLight(300,160,305,165,300,170,305,175,board.C)
-c2.rTop.createLight(0,0,0,0,0,0,0,0,board.C)
-c2.rRight.createLight(345, 185, 350, 190, 345, 175, 350, 180,board.C)
-c2.rBottom.createLight(0, 0, 0, 0, 320, 195, 325, 200,board.C)
+c2.rLeft.createLight(350, 170+y, 360, 180+y, 350, 190+y, 360, 200+y, board.C)
+c2.rTop.createLight(0, 0, 0, 0, 0, 0, 0, 0, board.C)
+c2.rRight.createLight(440, 220+y, 450, 230+y, 440, 200+y, 450, 210+y, board.C)
+c2.rBottom.createLight(0, 0, 0, 0, 390, 240+y, 400, 250+y, board.C)
 
 #3rd Crossing
-c3.rLeft.createLight(450,160,455,165,450,170,455,175,board.C)
-c3.rTop.createLight(485,150,490,155,475,150,480,155,board.C)
-c3.rRight.createLight(495, 185, 500, 190, 495, 175, 500, 180,board.C)
-c3.rBottom.createLight(460, 195, 465, 200, 470, 195, 475, 200,board.C)
+c3.rLeft.createLight(550, 170+y, 560, 180+y, 550, 190+y, 560, 200+y, board.C)
+c3.rTop.createLight(620, 150+y, 630, 160+y, 600, 150+y, 610, 160+y, board.C)
+c3.rRight.createLight(640, 220+y, 650, 230+y, 640, 200+y, 650, 210+y, board.C)
+c3.rBottom.createLight(570, 240+y, 580, 250+y, 590, 240+y, 600, 250+y, board.C)
 
 #4th T Point
-c4.rLeft.createLight(600,160,605,165,600,170,605,175,board.C)
-c4.rTop.createLight(0,0,0,0,0,0,0,0,board.C)
-c4.rRight.createLight(645, 185, 650, 190, 645, 175, 650, 180,board.C)
-c4.rBottom.createLight(0, 0, 0, 0, 620, 195, 625, 200,board.C)
+c4.rLeft.createLight(750, 170+y, 760, 180+y, 750, 190+y, 760, 200+y, board.C)
+c4.rTop.createLight(0, 0, 0, 0, 0, 0, 0, 0, board.C)
+c4.rRight.createLight(840, 220+y, 850, 230+y, 840, 200+y, 850, 210+y, board.C)
+c4.rBottom.createLight(0, 0, 0, 0, 790, 240+y, 800, 250+y, board.C)
 
 #5th T Point
-c5.rLeft.createLight(750,160,755,165,750,170,755,175,board.C)
-c5.rTop.createLight(0,0,0,0,775,150,780,155,board.C)
-c5.rRight.createLight(795, 185, 800, 190, 795, 175, 800, 180,board.C)
-c5.rBottom.createLight(0, 0, 0, 0, 0, 0, 0, 0,board.C)
+c5.rLeft.createLight(950, 170+y, 960, 180+y, 950, 190+y, 960, 200+y, board.C)
+c5.rTop.createLight(0, 0, 0, 0, 1000, 150+y, 1010, 160+y, board.C)
+c5.rRight.createLight(1040, 220+y, 1050, 230+y, 1040, 200+y, 1050, 210+y, board.C)
+c5.rBottom.createLight(0, 0, 0, 0, 0, 0, 0, 0, board.C)
 
 
 def controlLight(crossing, xL, yL, xT, yT, xR, yR, xB, yB):
